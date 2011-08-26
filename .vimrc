@@ -130,6 +130,7 @@ set cursorline                  " underline the current line, for quick orientat
 syntax on
 set background=dark
 colorscheme solarized
+call togglebg#map("<F5>")       " go ahead and map F5 to togglebg
 
 " Editing shortcuts
 nnoremap ; :
