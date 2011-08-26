@@ -132,7 +132,8 @@ set background=dark
 colorscheme solarized
 
 " Editing shortcuts
-nnoremap ; :                    " remap ; to :. no more shift.
+nnoremap ; :
+nnoremap <SPACE> :
 
 " disallow arrow keys
 map <up> <nop>
@@ -164,8 +165,8 @@ nnoremap <Tab> %
 vnoremap <Tab> %
 
 " Folding
-nnoremap <Space> za
-vnoremap <Space> za
+" nnoremap <Space> za
+" vnoremap <Space> za
 
 " Store the bookmarks file
 let NERDTreeBookmarksFile=expand("$HOME/.vim/NERDTreeBookmarks")
