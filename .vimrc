@@ -130,11 +130,17 @@ set cursorline                  " underline the current line, for quick orientat
 syntax on
 set background=dark
 colorscheme solarized
-call togglebg#map("<F5>")       " go ahead and map F5 to togglebg
+call togglebg#map("<Space>tog")       " go ahead and map F5 to togglebg
 
 " Editing shortcuts
 nnoremap ; :
 nnoremap <SPACE> :
+map <Tab>n :NERDTreeToggle<CR>
+map <Tab>p :PeepOpen<CR>
+map <F5> :PeepOpen<CR>
+map <Tab>b :BufExplorer<CR>
+map <Tab>y :YRGetElem<CR>
+map <Tab>u :GundoToggle<CR>
 
 " disallow arrow keys
 map <up> <nop>
