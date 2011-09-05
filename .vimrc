@@ -12,7 +12,7 @@ call pathogen#infect()
 
 " Vim settings!
 set nocompatible                " I'm only doing this because nvie told me to. (jk.)
-let mapleader = '<SPACE>'
+" let mapleader = '<SPACE>'
 
 " Syntax
 syntax on
@@ -130,23 +130,28 @@ set cursorline                  " underline the current line, for quick orientat
 syntax on
 set background=dark
 colorscheme solarized
-call togglebg#map("<Space>tog")       " go ahead and map F5 to togglebg
+" call togglebg#map("<Space>tog")       " go ahead and map F5 to togglebg
+call togglebg#map(":tog")       " go ahead and map F5 to togglebg
 
 " Editing shortcuts
 nnoremap ; :
-nnoremap <SPACE> :
+" nnoremap <SPACE> :
 map <Tab>n :NERDTreeToggle<CR>
 map <Tab>p :PeepOpen<CR>
 map <F5> :PeepOpen<CR>
 map <Tab>b :BufExplorer<CR>
 map <Tab>y :YRGetElem<CR>
 map <Tab>u :GundoToggle<CR>
+map <left> :bp<CR>
+map <right> :bn<CR>
+map <up> :PeepOpen<CR>
+map <down> :NERDTreeToggle<CR>
 
 " disallow arrow keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+" map <up> <nop>
+" map <down> <nop>
+" map <left> <nop>
+" map <right> <nop>
 
 " Remap j and k to act as expected when used on long, wrapped, lines
 nnoremap j gj
