@@ -13,6 +13,9 @@ call pathogen#infect()
 " Vim settings!
 set nocompatible                " I'm only doing this because nvie told me to. (jk.)
 " let mapleader = '<SPACE>'
+set t_Co=256
+let $NEWRUNTIMEPATH='/usr/share/vim/vim73'
+set runtimepath^=$NEWRUNTIMEPATH
 
 " Syntax
 syntax on
@@ -129,7 +132,7 @@ set cursorline                  " underline the current line, for quick orientat
 " Editing
 syntax on
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 " call togglebg#map("<Space>tog")       " go ahead and map F5 to togglebg
 call togglebg#map(":tog")       " go ahead and map F5 to togglebg
 
