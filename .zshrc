@@ -28,5 +28,11 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# shortcuts
+alias a='git add .'
+alias c='git commit'
+alias p='git push'
+alias pu='git pull'
+
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin:/usr/local/git/bin

@@ -131,7 +131,8 @@ set cursorline                  " underline the current line, for quick orientat
 
 " Editing
 syntax on
-set background=dark
+set background=light
+colorscheme github
 " colorscheme solarized
 " call togglebg#map("<Space>tog")       " go ahead and map F5 to togglebg
 call togglebg#map(":tog")       " go ahead and map F5 to togglebg
