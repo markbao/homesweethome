@@ -141,14 +141,14 @@ call togglebg#map(":tog")       " go ahead and map F5 to togglebg
 nnoremap ; :
 " nnoremap <SPACE> :
 map <Tab>n :NERDTreeToggle<CR>
-map <Tab>p :PeepOpen<CR>
-map <F5> :PeepOpen<CR>
+" map <Tab>p :PeepOpen<CR>
+" map <F5> :PeepOpen<CR>
 map <Tab>b :BufExplorer<CR>
 map <Tab>y :YRGetElem<CR>
 map <Tab>u :GundoToggle<CR>
 map <left> :bp<CR>
 map <right> :bn<CR>
-map <up> :PeepOpen<CR>
+" map <up> :PeepOpen<CR>
 map <down> :NERDTreeToggle<CR>
 
 " disallow arrow keys
