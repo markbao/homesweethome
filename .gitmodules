@@ -34,3 +34,6 @@
 [submodule ".vim/bundle/php-indenting"]
 	path = .vim/bundle/php-indenting
 	url = git://github.com/2072/PHP-Indenting-for-VIm.git
+[submodule ".vim/bundle/easymotion"]
+	path = .vim/bundle/easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
