@@ -43,3 +43,6 @@
 [submodule ".vim/bundle/taglist"]
 	path = .vim/bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule ".vim/bundle/conque"]
+	path = .vim/bundle/conque
+	url = https://github.com/vim-scripts/Conque-Shell.git
