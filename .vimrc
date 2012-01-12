@@ -211,6 +211,7 @@ let NERDTreeMouseMode=2
 let NERDTreeIgnore=[ '\.pyc$', '\.pyo$', '\.py\$class$', '\.obj$',
             \ '\.o$', '\.so$', '\.egg$', '^\.git$' ]
 
+let Powerline_theme="distinguished"
 
 " Additional appearance
 set guifont=Inconsolata:h18
