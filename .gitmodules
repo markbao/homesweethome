@@ -58,6 +58,3 @@
 [submodule ".vim/bundle/markdown"]
 	path = .vim/bundle/markdown
 	url = https://github.com/hallison/vim-markdown.git
-[submodule ".vim/bundle/cs-tomorrow"]
-	path = .vim/bundle/cs-tomorrow
-	url = git://github.com/ChrisKempson/Vim-Tomorrow-Theme.git
