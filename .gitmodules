@@ -49,9 +49,6 @@
 [submodule ".vim/bundle/tagbar"]
 	path = .vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-[submodule ".vim/bundle/cs-tomorrow"]
-	path = .vim/bundle/cs-tomorrow
-	url = https://github.com/ChrisKempson/Vim-Tomorrow-Theme.git
 [submodule ".vim/bundle/supertab"]
 	path = .vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
