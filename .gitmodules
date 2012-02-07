@@ -54,7 +54,7 @@
 	url = https://github.com/ervandew/supertab.git
 [submodule ".vim/bundle/powerline"]
 	path = .vim/bundle/powerline
-	url = https://github.com/Lokaltog/vim-powerline.git
+	url = git://github.com/Lokaltog/vim-powerline.git
 [submodule ".vim/bundle/markdown"]
 	path = .vim/bundle/markdown
 	url = https://github.com/hallison/vim-markdown.git
