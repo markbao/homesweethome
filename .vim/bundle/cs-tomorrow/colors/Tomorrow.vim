@@ -15,6 +15,8 @@ let s:yellow = "eab700"
 let s:green = "718c00"
 let s:blue = "4271ae"
 let s:purple = "8959a8"
+let s:window = "4d5057"
+let s:aqua = "3e999f"
 
 set background=light
 hi clear
