@@ -16,9 +16,6 @@
 [submodule ".vim/bundle/matchit"]
 	path = .vim/bundle/matchit
 	url = git://github.com/vim-scripts/matchit.zip.git
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
@@ -58,3 +55,6 @@
 [submodule ".vim/bundle/markdown"]
 	path = .vim/bundle/markdown
 	url = https://github.com/hallison/vim-markdown.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
