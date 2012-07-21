@@ -8,7 +8,7 @@ export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="mh"
+export ZSH_THEME="sorin"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
