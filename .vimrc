@@ -14,8 +14,8 @@ call pathogen#infect()
 set nocompatible                " I'm only doing this because nvie told me to. (jk.)
 " let mapleader = '<SPACE>'
 set t_Co=256
-let $NEWRUNTIMEPATH='/usr/share/vim/vim73'
-set runtimepath^=$NEWRUNTIMEPATH
+" let $NEWRUNTIMEPATH='/usr/share/vim/vim73'
+" set runtimepath^=$NEWRUNTIMEPATH
 
 " Syntax
 syntax on
