@@ -151,7 +151,7 @@ map <right> :bn<CR>
 " map <up> :PeepOpen<CR>
 map <up> :FufFileWithCurrentBufferDir<CR>
 map <Tab>f :FufFileWithCurrentBufferDir<CR>
-map <F5> :FufFileWithCurrentBufferDir<CR>
+map <F5> :CtrlP<CR>
 map <down> :NERDTreeToggle<CR>
 
 " disallow arrow keys
