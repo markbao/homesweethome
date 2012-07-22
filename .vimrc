@@ -25,9 +25,9 @@ filetype plugin indent on
 set showmode                    " always show what mode we're currently editing in
 set expandtab                   " go to space (tabs)
 set nowrap                      " don't wrap lines
-set tabstop=4                   " 4 spaces in a tab
-set shiftwidth=4                " 4 spaces when shifting text
-set softtabstop=4               " same deal
+set tabstop=2                   " 4 spaces in a tab
+set shiftwidth=2                " 4 spaces when shifting text
+set softtabstop=2               " same deal
 set autoindent                  " autoindent and don't you ever forget
 set copyindent                  " copy the previous indentation on autoindenting
 set shiftround                  " use multiple of shiftwidth when indenting with '<' and '>'
