@@ -1,14 +1,7 @@
 # homesweethome. mark bao's dotfiles.
 
-these are mine. you are free to take them ^_^
+These are my dotfiles, mostly for vim and zsh. They're very customized to my own workflow, but feel free to use them if you wish!
 
-## how this work?
+At first, I shunned using the symlink dotfiles approach, because I thought it was silly. Until I found out that putting a `.git` in your home directory was not only silly, but just plain dumb.
 
-I don't do the whole symlink thing, because... screw that. git clone things, man. and then it's done.
-
-at first, git will want to commit everything in your home directory. to prevent this, edit `~/.git/info/exclude` and add a `*` at the last line of the file.
-
-## todo
-
-* <strike>move away from nvie's vim ish. as much as i love nvie. i like having mai own vim dotfiles.</strike> OMG DONE
-* put in more plugins to vim
+Now, I clone this repo to a directory `~/.dot` and symlink `.vim`, `.vimrc`, `.zshrc`, `.oh-my-zsh`, and other requisite files.
