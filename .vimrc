@@ -211,7 +211,11 @@ let NERDTreeMouseMode=2
 let NERDTreeIgnore=[ '\.pyc$', '\.pyo$', '\.py\$class$', '\.obj$',
             \ '\.o$', '\.so$', '\.egg$', '^\.git$' ]
 
+" Powerline - set theme
 let Powerline_theme="distinguished"
+
+" CtrlP - modify working path behavior so that it uses the working directory
+let g:ctrlp_working_path_mode = 0
 
 " Additional appearance
 set guifont=Inconsolata:h18
