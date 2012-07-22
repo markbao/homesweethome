@@ -149,7 +149,7 @@ map <left> :bp<CR>
 map <right> :bn<CR>
 map <down> :NERDTreeToggle<CR>
 map <F5> :CtrlP<CR>
-map <Tab>c :CtrlPClearAllCaches
+map <Tab>c :CtrlPClearAllCaches<CR>
 
 " disallow arrow keys
 " map <up> <nop>
